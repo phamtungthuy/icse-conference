@@ -1,0 +1,144 @@
+/* 
+Theme Name: icse-conferences
+Text Domain: icse-conferences
+Version: 1.5
+Description: Fancy left sidebar theme
+Tags: left-sidebar, responsive, fancy
+Author: Andrew Wilson
+Author URI: http://youtube.com/icse-conferences
+*/
+body {
+	background:#80FFFF; /*#0080FF;#83A4FF;*/
+	color:000000;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	line-height:1.4;
+	margin:0;
+	padding:0;
+}
+
+/* BASIC STYLING */
+
+div, form {
+	margin:0;
+	padding:0;
+}
+
+a, a:link {
+   color: #6600CC; /*#F9F04B; link color */
+   text-decoration: none;
+}
+
+a:visited { 
+	color: #CC0000;/*#A4FFFF; followed link color */
+}
+
+a:focus, a:hover {
+	color:#6600CC; /*#FFFFCC; hovered link color */
+	font-weight:bold;
+}
+
+a:active { }
+
+h3, h4, h5, h6 {
+	font-size: large;
+	margin:0;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+}	
+
+h2 {
+	font-size:x-large;
+	margin:0;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size:xx-large;
+	margin:0;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+}
+
+ul, ol {
+	list-style-type:square;
+	margin:0;
+	padding:.2em 0 .2em 1.2em;
+}
+
+li { padding:0 0 .3em; }
+
+
+/* HEADER AND NAVIGATION */
+
+
+#navigation td {
+	border-bottom: 1px solid #FF6600 /* separation lines between menu items */
+	}
+
+#navigation a {
+	color: #FFD214; /* static menu text colour */
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 16px 8px 16px;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	font-size: 80%;
+	}
+	
+#navigation a:hover {
+	color: #FFFFCC; /* hover menu text colour */
+	font-weight:bold;
+	}
+	
+#navheader {
+	color: #000080;/*#1F2669;*/
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	font-size: 140%;
+	}
+
+	
+.navText {
+	color: #000080;/*#FFD214;*/
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	}
+
+/* NAVLINKS */
+
+#text #navlinks {
+    padding:1.4em 0 1em;
+}
+
+#navlinks span {
+	display:block;
+	margin-bottom:2px;
+}
+
+#navlinks a { 
+	display:block;
+	margin-bottom:3px; 
+}
+
+.style77 {
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	color: #000000;/*#FFD214;*/
+	font-size: large;
+	font-weight:bold;
+	letter-spacing:.1em;
+}
+
+.style77-32 {
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	color: #FF8000;/*#FFD214;*/
+	font-size: x-large;
+	font-weight:bold;
+	letter-spacing:.2em;
+}
+
+.style77-48 {
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	color: #FF8000;/*#FFD214;*/
+	font-size: xx-large;
+	font-weight:bold;
+	letter-spacing:.3em;
+
+}
